@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('../img/imgClimate.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 2px 8px 5px rgb(145, 144, 144);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px 5px rgb(73, 72, 72);
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
